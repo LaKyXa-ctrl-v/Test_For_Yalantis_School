@@ -1,4 +1,5 @@
 # Test_for_Yalantis
+## Before starting work you need read setup.md !!!
 ### You can use [Postman](https://www.postman.com/) or [Swagger](http://127.0.0.1:8000/swagger/)
 # Driver:
 
@@ -23,8 +24,15 @@
 + POST /vehicles/set_driver/<vehicle_id>/ - put the driver in the car / get the driver out of the car  
 + DELETE /vehicles/vehicle/<vehicle_id>/ - removing the machine
 
-
-
+## The project has additional content:
+### 1) For sorting and formatting flake8 / black / isort
+```
+$ pip install -r dev.txt
+```
+### 2) For testing
+```
+$ python manage.py test
+```
 ### This project was created for a test assignment to a school. 
 ### It does not carry any semantic meaning. 
 ##### Whoever reads this good luck to you!
