@@ -1,0 +1,88 @@
+[
+    {
+        "model": "driver_app.driver",
+        "pk": 1,
+        "fields": {
+            "created_at": "2021-12-08T14:29:15.440Z",
+            "updated_at": "2021-12-08T14:29:15.440Z",
+            "first_name": "Имя_1",
+            "last_name": "Фамилия_1"
+        }
+    },
+    {
+        "model": "driver_app.driver",
+        "pk": 2,
+        "fields": {
+            "created_at": "2021-12-08T14:29:23.549Z",
+            "updated_at": "2021-12-08T14:29:23.549Z",
+            "first_name": "Имя_2",
+            "last_name": "Фамилия_2"
+        }
+    },
+    {
+        "model": "driver_app.driver",
+        "pk": 3,
+        "fields": {
+            "created_at": "2021-12-08T14:29:30.749Z",
+            "updated_at": "2021-12-08T14:29:30.749Z",
+            "first_name": "Имя_3",
+            "last_name": "Фамилия_3"
+        }
+    },
+    {
+        "model": "driver_app.driver",
+        "pk": 4,
+        "fields": {
+            "created_at": "2021-12-08T14:29:38.067Z",
+            "updated_at": "2021-12-08T14:29:38.067Z",
+            "first_name": "Имя_4",
+            "last_name": "Фамилия_4"
+        }
+    },
+    {
+        "model": "driver_app.driver",
+        "pk": 5,
+        "fields": {
+            "created_at": "2021-12-08T14:29:46.750Z",
+            "updated_at": "2021-12-08T14:29:46.750Z",
+            "first_name": "Имя_5",
+            "last_name": "Фамилия_5"
+        }
+    },
+    {
+        "model": "driver_app.vehicle",
+        "pk": 1,
+        "fields": {
+            "created_at": "2021-12-08T14:30:09.592Z",
+            "updated_at": "2021-12-08T14:30:09.592Z",
+            "driver": 1,
+            "make": "Бренд_1",
+            "model": "Модель_1",
+            "plate_number": "BB 5545 DD"
+        }
+    },
+    {
+        "model": "driver_app.vehicle",
+        "pk": 2,
+        "fields": {
+            "created_at": "2021-12-08T14:30:29.140Z",
+            "updated_at": "2021-12-08T14:30:29.140Z",
+            "driver": 2,
+            "make": "Бренд_2",
+            "model": "Модель_2",
+            "plate_number": "BB 0000 DD"
+        }
+    },
+    {
+        "model": "driver_app.vehicle",
+        "pk": 3,
+        "fields": {
+            "created_at": "2021-12-08T14:30:46.538Z",
+            "updated_at": "2021-12-08T14:30:48.199Z",
+            "driver": null,
+            "make": "Бренд_3",
+            "model": "Модель_3",
+            "plate_number": "BB 0001 DD"
+        }
+    }
+]
