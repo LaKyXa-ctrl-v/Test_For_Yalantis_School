@@ -25,6 +25,6 @@
 
 
 
-### This project was created for a test assignment to a school. 
+### This project was created for a test assignment to a Yalantis school. 
 ### It does not carry any semantic meaning. 
 ##### Whoever reads this good luck to you!
