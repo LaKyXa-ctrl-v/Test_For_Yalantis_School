@@ -24,6 +24,7 @@
 + POST /vehicles/set_driver/<vehicle_id>/ - put the driver in the car / get the driver out of the car  
 + DELETE /vehicles/vehicle/<vehicle_id>/ - removing the machine
 
+<<<<<<< HEAD
 ## The project has additional content:
 ### 1) For sorting and formatting flake8 / black / isort
 ```
@@ -34,5 +35,10 @@ $ pip install -r dev.txt
 $ python manage.py test
 ```
 ### This project was created for a test assignment to a school. 
+=======
+
+
+### This project was created for a test assignment to a Yalantis school. 
+>>>>>>> 86553c95e1669511625e410f21c09c09a30fe137
 ### It does not carry any semantic meaning. 
 ##### Whoever reads this good luck to you!
